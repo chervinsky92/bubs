@@ -1,0 +1,11 @@
+/* font-family: 'Fredoka One', cursive; */
+
+html {
+    /* ensure content is visible on iPhone X */
+    padding: env(safe-area-inset);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
