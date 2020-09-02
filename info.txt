@@ -6,3 +6,4 @@ text: Lato (300, 400, 700)
 Colors
 logo: peach (#e7b77e)
 h1, btn: dark blue (#343a40)
+background: blue (#004788)
