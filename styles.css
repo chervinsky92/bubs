@@ -7,5 +7,125 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #505962;
+    /* color: black; */
+}
+
+h1, .btn {
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Home -> Navigation */
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar {
+    padding: .6rem 1rem;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    /*background-color: #004788; */
+}
+
+/* navbar-nav = ul */
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: .8rem;
+    color:#343a40;
+}
+
+/* class1.class2 selects all elements with both classes */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #e7b77e;
+}
+
+.svg-inline--fa.fa-bars {
+    color: #343a40;
+    /*color: #e7b77e;*/
+    font-size: 1.6rem;
+}
+
+button:active, button:focus {
+    outline: 0;
+}
+
+/* Home -> Image */
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    /*background: white;*/
+    z-index: -1;
+}
+
+/* Makes sure background content is centered in viewport */
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner {
+    background-image: url('img/banner2.jpg');
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Cover screen = always take up 100% of width and height */
+    background-size: cover;
+    background-position: center center;
+    /* Keep zoom level of 0 to avoid 3D renedering on iPhone */
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+}
+
+/* Home -> Content */
+.home-text {
+    z-index: 1;
+    top: 40%;
+}
+
+.btn {
+    border-width: medium;
+    padding: .5rem 1.2rem;
+}
+
+.btn:hover {
+    color: #e7b77e;
+}
+
+/* About */
+
+
+/* Media queries */
+
+/* smaller than md breakpoint (< 768px) */
+@media (max-width: 767px) {
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+   /* .navbar-nav .nav-link {
+       /*color: #343a40; */
+    } 
+
+
+    .home-text {
+        top: 35%;
+    }
+
+    .home-text h1 {
+        font-size: 1.8rem;
+    }
 }
