@@ -8,7 +8,7 @@ body {
     color: #505962;
 }
 
-h1, .btn {
+h1, h2, .btn {
     font-family: 'Fredoka One', cursive;
 }
 
@@ -97,6 +97,11 @@ button:active, button:focus {
     padding: .5rem 1.2rem;
 }
 
+/* About */
+
+.padding {
+    padding-bottom: 2rem;
+}
 
 /* Needs */
 .offset:before {
