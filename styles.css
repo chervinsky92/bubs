@@ -1,5 +1,3 @@
-/* font-family: 'Fredoka One', cursive; */
-
 html {
     /* ensure content is visible on iPhone X */
     padding: env(safe-area-inset);
@@ -100,7 +98,13 @@ button:active, button:focus {
 }
 
 
-/* About */
+/* Needs */
+.offset:before {
+    content: "";
+    height: 62px; /* size of navbar */
+    margin-top: -62px;
+    display: block;
+}
 
 
 /* Media queries */
