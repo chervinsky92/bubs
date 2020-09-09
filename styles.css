@@ -121,6 +121,18 @@ button:active, button:focus {
     color: #00b3ff;
 }
 
+/* Food */
+
+.food-item img {
+    transition: transform .5s ease;
+}
+
+.food-item img:hover {
+    cursor: zoom-in;
+    transform: scale(1.1);
+}
+
+
 
 /* Media queries */
 
