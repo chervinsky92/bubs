@@ -4,6 +4,6 @@ h1, btn 	Fredoka One
 text 		Lato (300, 400, 700)		
 
 Colors:
-
+secondary	#f7850a (orange)
 
 
