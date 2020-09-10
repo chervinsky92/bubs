@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #505962;
+    color: #53595f; 
 }
 
 h1, h2, .btn {
@@ -132,10 +132,69 @@ button:active, button:focus {
     transform: scale(1.1);
 }
 
+/* Contact: left */
+.footer {
+    background-color: black;
+}
 
+.footer p {
+    font-size: 1.1rem;
+}
 
-/* Media queries */
+.footer img {
+    height: 2rem;
+}
 
+.footer a {
+    color: white;
+}
+
+.footer .svg-inline--fa {
+    font-size: 1.6rem;
+}
+
+.footer .svg-inline--fa:hover {
+    color: #f7850a;
+}
+
+ul.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.social li {
+    display: inline;
+    padding-right: .8rem;
+}
+
+/* Contact: form */
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+.form-control {
+    background: #53595f;
+    border-radius: 0;
+    border: .1rem solid white;
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+.form-control:focus {
+    background-color: #4c525c;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: white;
+}
+
+hr.socket {
+    border-top: .1rem solid white;
+}
+
+/* ===MEDIA QUERIES=== */
 /* smaller than md breakpoint (< 768px) */
 @media (max-width: 767px) {
     .home-text {
