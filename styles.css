@@ -22,6 +22,8 @@ h1, h2, .btn {
     font-size: .9rem;
     letter-spacing: .1rem;
     background-color: black;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* navbar-nav = ul */
@@ -90,17 +92,26 @@ button:active, button:focus {
 .home-text {
     z-index: 1;
     top: 40%;
+    position: absolute;
+    text-align: center;
 }
 
 .btn {
     border-width: medium;
     padding: .5rem 1.2rem;
+    text-transform: uppercase;
+    border-radius: 0;
 }
 
 /* About */
 
 .padding {
     padding-bottom: 2rem;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Needs */
@@ -115,6 +126,7 @@ button:active, button:focus {
     width: 3rem;
     height: .25rem;
     background-color: #f7850a;
+    margin: 1.5rem auto;
 }
 
 .needs .svg-inline--fa {
@@ -122,6 +134,10 @@ button:active, button:focus {
 }
 
 /* Food */
+
+.food-item {
+    overflow: hidden;
+}
 
 .food-item img {
     transition: transform .5s ease;
@@ -131,6 +147,11 @@ button:active, button:focus {
     cursor: zoom-in;
     transform: scale(1.1);
 }
+
+.example-image {
+    width: 100%;
+}
+
 
 /* Contact: left */
 .footer {
