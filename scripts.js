@@ -15,3 +15,13 @@ $(document).ready(function() {
         }
     });
 });
+
+/* Script 2:
+Lightbox settings: https://lokeshdhakar.com/projects/lightbox2/ */
+
+$(document).ready(function() {
+    lightbox.option({
+        'wrapAround': true
+    })
+});
+
