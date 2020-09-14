@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #53595f; 
+    color: black; 
 }
 
 h1, h2, .btn {
@@ -39,7 +39,7 @@ h1, h2, .btn {
 /* class1.class2 selects all elements with both classes */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-    color: #f7850a;
+    color: #ff8400;
 }
 
 .svg-inline--fa.fa-bars {
@@ -114,6 +114,11 @@ button:active, button:focus {
     font-weight: 700;
 }
 
+.btn-primary:hover {
+    background-color: #ff8400;
+    border: .2rem solid #ff8400;
+}
+
 /* Needs */
 .offset:before {
     content: "";
@@ -125,12 +130,12 @@ button:active, button:focus {
 .heading-underline {
     width: 3rem;
     height: .25rem;
-    background-color: #f7850a;
+    background-color: #007bff;
     margin: 1.5rem auto;
 }
 
 .needs .svg-inline--fa {
-    color: #f7850a;
+    color: #ff007b;
 }
 
 /* Food */
@@ -175,7 +180,7 @@ button:active, button:focus {
 }
 
 .footer .svg-inline--fa:hover {
-    color: #f7850a;
+    color: #ff8400;
 }
 
 ul.social {
@@ -195,20 +200,20 @@ ul.social li {
 }
 
 .form-control {
-    background: #53595f;
+    background: white;
     border-radius: 0;
     border: .1rem solid white;
-    color: white !important;
+    color: black !important;
     font-size: 1.1rem;
 }
 
 .form-control:focus {
-    background-color: #4c525c;
+    background-color: white;
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: white;
+    color: black;
 }
 
 hr.socket {
@@ -226,3 +231,4 @@ hr.socket {
         font-size: 1.8rem;
     }
 }
+

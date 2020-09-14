@@ -1,9 +1,13 @@
 Fonts:
-logo		Leaderson
-h1, btn 	Fredoka One
-text 		Lato (300, 400, 700)		
+logo			Leaderson
+h1, h2, btn 		Fredoka One
+text 			Lato (300, 400, 700)		
 
 Colors:
-secondary	#f7850a (orange)
+main			black
+			white
+secondary (btn, hr)	blue	 	#007bff
+action (btn, links)	orange 	#ff8400
+icons			purple		#ff007b
 
 
