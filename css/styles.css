@@ -72,7 +72,7 @@ button:active, button:focus {
 }
 
 .home-inner {
-    background-image: url('img/background.jpg');
+    background-image: url('../img/background.jpg');
     position: fixed;
     display: table;
     top: 0;
@@ -220,7 +220,6 @@ hr.socket {
     border-top: .1rem solid white;
 }
 
-/* ===MEDIA QUERIES=== */
 /* smaller than md breakpoint (< 768px) */
 @media (max-width: 767px) {
     .home-text {
